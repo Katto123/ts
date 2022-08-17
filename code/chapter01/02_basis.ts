@@ -11,7 +11,7 @@
 // 声明完变量直接进行赋值
 // let c:Boolean = true;
 
-// 如果变量的声明和赋值是同时进行的。Ts可以自动对变量进行类型检测
+// 如果变量的声明和赋值是同时进行的。Ts可以自动对变量进行类型检测   类型都是小写
 // let c = false;
 // c = true;
 
@@ -22,7 +22,7 @@
 // console.log(sum(123,456));
 // console.log(sum(123,"456"));
 
-// 可以给参数做类别的声明
+// 可以给参数做类别的声明   :number预想答案类型
 function sum(a:number,b:number):number{
     return a+b;
 }
