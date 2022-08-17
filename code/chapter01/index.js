@@ -154,7 +154,7 @@ console.log('p2',p2);
 
 const res3 = p2.catch(() =>{
     console.log('p2 catch');
-     
+        
 })
 
 setTimeout(() => {
