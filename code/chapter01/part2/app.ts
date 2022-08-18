@@ -1,3 +1,3 @@
-console.log('hello');
-let a = 2
- let b = 7
+// console.log('hello');
+// let a = 2
+//  let b = 7
