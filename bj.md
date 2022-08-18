@@ -305,6 +305,20 @@ k = 1
 
 
 
+### 自动编译文件 tsc  ***.ts -w
+
+
+##  tsconfig.json  是ts编译器的配置文件， ts 编译器可以根据他的消息来对代码进行编译
+
+"include"  用来指定哪些ts文件需要被编译
+路径：** 任意目录
+      *  任意文件
+"exclude" 不需要被编译的文件目录
+
+
+默认值：["node_modules","bower_components","jspm_packages"]
+
+
 
 
 
